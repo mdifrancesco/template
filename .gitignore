@@ -27,4 +27,3 @@
 /data/*
 *.pdf
 .DS_Store
-*.properties
