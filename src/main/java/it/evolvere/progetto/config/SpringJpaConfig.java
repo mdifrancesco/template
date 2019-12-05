@@ -43,8 +43,8 @@ public class SpringJpaConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(env.getProperty("driver"));
         dataSource.setUrl(env.getProperty("jdbcUrl"));
-        dataSource.setUsername(env.getProperty("username"));
-        dataSource.setPassword(env.getProperty("password"));
+        dataSource.setUsername(env.getProperty("dbusername"));
+        dataSource.setPassword(env.getProperty("dbpassword"));
         return dataSource;
     }
 
